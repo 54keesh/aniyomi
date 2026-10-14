@@ -181,7 +181,8 @@ class PlayerSettingsMainScreen(private val mainSettings: Boolean) : Screen() {
         val screen: VoyagerScreen,
     )
 
-    private val items = listOf(
+    private val items: List<Item>
+        get() = listOf(
         Item(
             titleRes = AYMR.strings.pref_player_internal,
             subtitleRes = AYMR.strings.pref_player_internal_summary,
