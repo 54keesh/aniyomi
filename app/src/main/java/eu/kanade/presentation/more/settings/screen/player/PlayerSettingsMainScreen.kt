@@ -237,5 +237,5 @@ class PlayerSettingsMainScreen(private val mainSettings: Boolean) : Screen() {
                 icon = Icons.Outlined.Code,
                 screen = PlayerSettingsAdvancedScreen,
             ),
-    )
+        )
 }
